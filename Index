@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        header {
+            padding: 20px;
+            text-align: left;
+            background-color: white;
+        }
+        nav a {
+            margin: 0 15px;
+            color: green;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .headline {
+            padding: 50px;
+            text-align: right;
+            font-size: 36px;
+            color: black;
+        }
+        .headline span {
+            color: green;
+        }
+        .geometric {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background-image: linear-gradient(to right, #4caf50, #2e7d32);
+            clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="your-logo.png" alt="Logo" style="height: 50px;">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Creators</a>
+            <a href="#">Brand</a>
+            <a href="#">About Us</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    
+    <div class="geometric"></div>
+    
+    <section class="headline">
+        <p><strong>#1</strong> Fastest Growing <span>Marketing Agency</span></p>
+    </section>
+</body>
+</html>
